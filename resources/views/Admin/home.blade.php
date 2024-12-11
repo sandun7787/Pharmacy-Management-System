@@ -66,7 +66,7 @@
                 <!-- logo -->
                 <div class="row border-bottom mb-2 mt-4 bg-white">
                     <div class="col-12">
-                        <img src="https://static9.depositphotos.com/1000128/1192/i/600/depositphotos_11928310-stock-photo-medical-assistance-and-cardiology-concept.jpg"
+                        <img src="/image/h.png"
                             width="160px" height="60px" alt="" class="rounded mx-auto d-block img-fluid">
 
                         <div class="text-center mt-2 mb-3">
@@ -81,9 +81,6 @@
                         <a href="{{ url('admin-dashboard') }}"
                             class="btn border-bottom col-12 text-left font-weight-bold"><i class="fa fa-tachometer mr-2"
                                 aria-hidden="true"></i> Dashboard</a>
-
-                        <a href="{{ url('sales') }}" class="btn border-bottom col-12 text-left font-weight-bold"><i
-                                class="fa fa-money mr-2" aria-hidden="true"></i> Sales</a>
 
                         <a href="{{ url('customers') }}" class="btn border-bottom col-12 text-left font-weight-bold"><i
                                 class="fa fa-users mr-2" aria-hidden="true"></i> Customers</a>

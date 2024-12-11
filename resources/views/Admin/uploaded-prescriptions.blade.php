@@ -52,7 +52,7 @@
                         <thead class="thead-light">
                             <tr>
                                 <th>Drugs</th>
-                                <th>Quanity</th>
+                                <th>Quantity</th>
                                 <th>Amount</th>
                             </tr>
                         </thead>
@@ -139,7 +139,7 @@
                         <hr>
                     </form>
                     <div class="text-right">
-                        <button class="btn btn-primary">Send Quotation</button>
+                        <button class="btn btn-primary" id="sendQuotationButton">Send Quotation</button>
                     </div>
                 </div>
             </div>
@@ -168,6 +168,20 @@
                     }
                 });
             });
+
+            // SweetAlert2 notification on Send Quotation button click
+            $("#sendQuotationButton").on('click', function() {
+                Swal.fire({
+                    title: 'Quotation Sent!',
+                    text: 'The quotation has been sent successfully.',
+                    icon: 'success',
+                    confirmButtonText: 'OK'
+                });
+            });
         });
     </script>
+
+    <!-- Include SweetAlert2 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.0/dist/sweetalert2.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.0/dist/sweetalert2.min.js"></script>
 @endsection
