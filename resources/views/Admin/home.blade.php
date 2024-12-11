@@ -111,11 +111,7 @@
                         @yield('bar')
                     </div>
                 </div>
-                @yield('connect')
-
-                <div class="col-12 p-3 bg-light mt-3 text-center font-style-italic">
-                    <span class="text-muted">Created By <a href="http://am-asky97.herokuapp.com/">A. M. Asky</a></span>
-                </div>
+                @yield('connect')    
             </div>
             <!-- End Right -->
         </div>
