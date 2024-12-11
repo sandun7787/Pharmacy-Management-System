@@ -23,9 +23,9 @@
         <nav class="navbar navbar-expand navbar-light " style="background-color: #e3f2fd;">
             <div class="container-fluid font-weight-bold">
                 <a href="#" class="navbar-brand d-lg-block ml-5">
-                    <img src="../image/logo-pharmacy-png-favpng-wqN3RkFh6GsviFssfVsmdecmi-removebg-preview.png"
+                    <img src="../image/p.png"
                         alt="" width="40" height="30" loading="lazy" class="d-inine-block align-top">
-                    <span class="text-primary">Phar</span><span class="text-danger">macy</span>
+                    <span class="text-primary">Pharmacy</span><span class="text-danger">Web</span>
                 </a>
 
                 <div>
