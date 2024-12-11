@@ -117,9 +117,7 @@
                 </div>
                 @yield('connect')
 
-                <div class="col-12 mt-3 text-center font-style-italic shadow-sm p-3 bg-body rounded">
-                    <span class="text-muted">Created By <a href="http://am-asky97.herokuapp.com/">A. M. Asky</a></span>
-                </div>
+              
             </div>
             <!-- End Right -->
         </div>
