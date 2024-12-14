@@ -8,6 +8,3 @@
 
 <p align="justify">The prescription process is made seamless for users as they can easily accept or reject the quotation provided by the pharmacy. Once the user makes a decision, the system will automatically notify the pharmacy about the user's acceptance or rejection status.</p>
 
-<p align="justify">The primary aim of this application is to provide a convenient and reliable platform for managing medical prescriptions, benefiting both users and pharmacies. For a visual demonstration of the application, you can watch the demo project at the following link: https://www.youtube.com/watch?v=hiyav_8PnT4 </p>
-
-<h2 align="center">Screenshot of UI</h2>
